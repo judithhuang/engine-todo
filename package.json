@@ -1,7 +1,7 @@
 {
-  "name": "engine",
+  "name": "engine-todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is engine for todo list",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,25 @@
     "build": "npx babel src --out-dir dist",
     "start": "npx babel src --watch --out-file dist/index.js"
   },
-  "author": "",
+  "author": "JudithHuang",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judithhuang/engine-todo.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "bugs": {
+    "url": "https://github.com/judithhuang/engine-todo/issues"
+  },
+  "homepage": "https://github.com/judithhuang/engine-todo#readme"
 }
