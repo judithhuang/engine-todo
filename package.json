@@ -9,7 +9,7 @@
     "build": "npx babel src --out-dir dist",
     "start": "npx babel src --watch --out-file dist/index.js"
   },
-  "author": "JudithHuang",
+  "author": "judith.huang",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.23.0",
